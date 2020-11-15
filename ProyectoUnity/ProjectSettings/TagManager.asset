@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Plataforma
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fondo 0
+    uniqueID: 2771975213
+    locked: 0
+  - name: Fondo 1
+    uniqueID: 1465637083
+    locked: 0
+  - name: Fondo 2
+    uniqueID: 1429118951
+    locked: 0
+  - name: Fondo 3
+    uniqueID: 632386163
+    locked: 0
+  - name: Suelo
+    uniqueID: 1140466465
+    locked: 0
+  - name: Jugador
+    uniqueID: 2632998017
+    locked: 0
+  - name: Cerca 0
+    uniqueID: 2681519615
     locked: 0
