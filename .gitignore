@@ -57,3 +57,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 **/Library/PackageCache/com.unity.cinemachine@2.6.3/Samples~/*
+**/Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4/Samples~/*
