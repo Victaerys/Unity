@@ -56,3 +56,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+**/Library/PackageCache/com.unity.cinemachine@2.6.3/Samples~/*
+D:\Program Files (x86)\Programación Software\Core Academy\Unity\ProyectoUnity\Library\PackageCache\com.unity.cinemachine@2.6.3\Samples~
