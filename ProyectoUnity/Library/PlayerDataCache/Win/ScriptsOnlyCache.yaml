@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Movimiento
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineComposer
     - Cinemachine.CinemachineConfiner
     - Cinemachine.CinemachineFramingTransposer
     - Cinemachine.CinemachinePipeline
@@ -57,6 +58,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
     - Class: 74
@@ -78,7 +81,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12436}
     - Class: 114
+      Script: {instanceID: 12786}
+    - Class: 114
       Script: {instanceID: 12956}
+    - Class: 114
+      Script: {instanceID: 13372}
     - Class: 114
       Script: {instanceID: 13542}
     - Class: 114
@@ -87,8 +94,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13620}
     - Class: 114
       Script: {instanceID: 14588}
-    - Class: 114
-      Script: {instanceID: 15118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -588,12 +593,6 @@ ScriptsOnlyBuild:
     className: CinemachineMixingCamera
   - hash:
       serializedVersion: 2
-      Hash: e78407b148f8a9050779956c41d2a7c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Camara
-  - hash:
-      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -642,7 +641,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: e43360890d2c6c2d69167a0e388142f2
+      Hash: 5dba62e86df11db30f29021d0ffd12fc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movimiento
@@ -889,4 +888,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "D:/Program Files (x86)/Programaci\xF3n Software/Core Academy/Unity/ProyectoUnity/Build/ProyectoUnity.exe"
+  playerPath: "D:/Program Files (x86)/Programaci\xF3n Software/Core Academy/Pruebas/New
+    Unity Project/Build/ProyectoUnity.exe"

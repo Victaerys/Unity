@@ -13,7 +13,7 @@ public class Movimiento : MonoBehaviour
     public float velocidad = 5f;
     public float sprint = 5f;
     public float fuerzaSalto = 6.5f;
-    private bool tocaSuelo = false;
+    public bool tocaSuelo = false;
     private float ejeYAnterior;
     private float ejeY;
 
@@ -61,7 +61,7 @@ public class Movimiento : MonoBehaviour
 
         if (ejeY > ejeYAnterior && tocaSuelo == false)
             animator.SetBool("estaSaltando", true);
-        else if (ejeY < ejeYAnterior)
+        else if (ejeY < ejeYAnterior && tocaSuelo == false)
         {
             animator.SetBool("estaSaltando", false);
             animator.SetBool("estaCayendo", true);
