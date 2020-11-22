@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Threading.Tasks;
+
 
 public class vidaJugador : MonoBehaviour
 {
@@ -11,6 +11,7 @@ public class vidaJugador : MonoBehaviour
     public Animator animator;
 
     public float dañoPinchos = 10f;
+    public float vidaCerezas = 5f;
     public float fuerzaDaño = 6.5f;
 
     public Rigidbody2D rb;
@@ -41,6 +42,20 @@ public class vidaJugador : MonoBehaviour
 
     }
 
+    public void vidaRecuperada(float vida)
+    {
+        if(vida + vidaActual <= maxVida)
+        {
+            vidaActual += vida;
+        } else
+        {
+            vidaActual = maxVida;
+        }
+
+        barraVida.setVida(vidaActual);
+
+    }
+
     private async void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Pinchos")
@@ -48,6 +63,11 @@ public class vidaJugador : MonoBehaviour
             dañoSufrido(dañoPinchos);
             rb.velocity = new Vector2(rb.velocity.x, fuerzaDaño);
             animator.SetTrigger("estaSiendoDañado");
+        } 
+        else if (collision.gameObject.tag == "Cereza")
+        {
+            vidaRecuperada(vidaCerezas);
+            Destroy(collision.gameObject);
         }
     }
 
