@@ -8,13 +8,18 @@ public class BarraVida : MonoBehaviour
 
     public Slider slider;
 
-    public void setMaxVida(int vida)
+    public void Start()
+    {
+        slider = GetComponent<Slider>();
+    }
+
+    public void setMaxVida(float vida)
     {
         slider.maxValue = vida;
         slider.value = vida;
     }
 
-   public void setVida(int vida)
+   public void setVida(float vida)
     {
         slider.value = vida;
     }

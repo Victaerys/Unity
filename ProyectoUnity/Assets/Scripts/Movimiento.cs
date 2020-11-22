@@ -13,7 +13,7 @@ public class Movimiento : MonoBehaviour
     public float velocidad = 5f;
     public float sprint = 5f;
     public float fuerzaSalto = 6.5f;
-    public bool tocaSuelo = false;
+    [SerializeField] private bool tocaSuelo = false;
     private float ejeYAnterior;
     private float ejeY;
 
@@ -37,6 +37,8 @@ public class Movimiento : MonoBehaviour
         float movimiento = Input.GetAxis("Horizontal");
         if (movimiento != 0) {
 
+
+
             animator.SetBool("estaCorriendo", true);
             sr.flipX = movimiento < 0;
 
@@ -59,15 +61,14 @@ public class Movimiento : MonoBehaviour
 
         ejeY = trans.position.y;
 
-        if (ejeY > ejeYAnterior && tocaSuelo == false)
-            animator.SetBool("estaSaltando", true);
-        else if (ejeY < ejeYAnterior && tocaSuelo == false)
+        if (ejeY < ejeYAnterior && tocaSuelo == false)
         {
             animator.SetBool("estaSaltando", false);
             animator.SetBool("estaCayendo", true);
         } 
 
         ejeYAnterior = ejeY;
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
