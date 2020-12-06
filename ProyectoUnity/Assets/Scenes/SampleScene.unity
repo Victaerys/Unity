@@ -222,7 +222,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4c28f2d4bfb08014785ea29955294604, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 486cd3f22be69fc4785c3dcc4230952b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -320,7 +320,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &14707279 stripped
 Transform:
@@ -753,7 +753,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &241552311
 Rigidbody2D:
@@ -985,7 +985,7 @@ Transform:
   m_Children:
   - {fileID: 917346995}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &413155159
 MonoBehaviour:
@@ -1614,14 +1614,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749360028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.553738, y: 0.2606083, z: -3.9603925}
+  m_LocalPosition: {x: 35.553738, y: 0.2606083, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2103490218}
   - {fileID: 908655615}
   - {fileID: 336033273}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &759037591 stripped
 Transform:
@@ -1662,7 +1662,7 @@ Transform:
   - {fileID: 759037591}
   - {fileID: 1328450480}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &766647126
 GameObject:
@@ -5093,7 +5093,7 @@ Transform:
   - {fileID: 1509451096}
   - {fileID: 1409628543}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &892897087
 GameObject:
@@ -5137,7 +5137,7 @@ Transform:
   m_Children:
   - {fileID: 2104571064}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894213204
 GameObject:
@@ -5701,7 +5701,7 @@ Transform:
   - {fileID: 766647127}
   - {fileID: 115710100}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &972134777
 GameObject:
@@ -5767,7 +5767,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &985158577
 GameObject:
@@ -6022,7 +6022,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1102268535
 GameObject:
@@ -6138,7 +6138,7 @@ Transform:
   - {fileID: 1224752754}
   - {fileID: 1051155598}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149430846
 GameObject:
@@ -6172,7 +6172,7 @@ Transform:
   - {fileID: 1271069485}
   - {fileID: 1097222864}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1149430848
 MonoBehaviour:
@@ -6733,7 +6733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1354035091
 PrefabInstance:
@@ -6919,7 +6919,7 @@ Transform:
   - {fileID: 1802005459}
   - {fileID: 894213205}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1478055143
 PrefabInstance:
@@ -7549,7 +7549,7 @@ RectTransform:
   m_Children:
   - {fileID: 117900699}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7595,7 +7595,7 @@ Transform:
   - {fileID: 271776237}
   - {fileID: 658448785}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1774347064
 GameObject:
@@ -7788,7 +7788,7 @@ Transform:
   m_Children:
   - {fileID: 913129052}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1873501206 stripped
 Transform:
@@ -8118,6 +8118,80 @@ Transform:
   m_LocalScale: {x: 0.8196935, y: 0.8196935, z: 0.8196935}
   m_Children: []
   m_Father: {fileID: 1702544572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2063835791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063835793}
+  - component: {fileID: 2063835792}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2063835792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063835791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d277920b09ac356449493ad4e34fbbf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidos:
+  - nombre: Salto
+    clip: {fileID: 8300000, guid: 21936e4621a9f094d9ca0c744dbe1979, type: 3}
+    volumen: 1
+    tono: 1
+    bucle: 0
+    fuente: {fileID: 0}
+  - nombre: "Da\xF1o"
+    clip: {fileID: 8300000, guid: 7ed8cfcec3b3d014f873f6e46bc95514, type: 3}
+    volumen: 1
+    tono: 1
+    bucle: 0
+    fuente: {fileID: 0}
+  - nombre: Pinchar
+    clip: {fileID: 8300000, guid: 6ad6da4189c90ad4db01d57822d3b03c, type: 3}
+    volumen: 1
+    tono: 1
+    bucle: 0
+    fuente: {fileID: 0}
+  - nombre: Comer
+    clip: {fileID: 8300000, guid: c374cedbf7170b8489247527dfe5d28e, type: 3}
+    volumen: 1
+    tono: 1
+    bucle: 0
+    fuente: {fileID: 0}
+  - nombre: "Da\xF1o"
+    clip: {fileID: 8300000, guid: 7ed8cfcec3b3d014f873f6e46bc95514, type: 3}
+    volumen: 1
+    tono: 1
+    bucle: 0
+    fuente: {fileID: 0}
+--- !u!4 &2063835793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063835791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2103490218 stripped

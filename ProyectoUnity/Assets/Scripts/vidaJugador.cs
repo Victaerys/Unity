@@ -37,6 +37,7 @@ public class vidaJugador : MonoBehaviour
 
     public void dañoSufrido(float daño)
     {
+        FindObjectOfType<AudioManager>().Reproducir("Daño");
         vidaActual -= daño;
         barraVida.setVida(vidaActual);
 
@@ -60,12 +61,14 @@ public class vidaJugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Pinchos")
         {
+            FindObjectOfType<AudioManager>().Reproducir("Pinchar");
             dañoSufrido(dañoPinchos);
             rb.velocity = new Vector2(rb.velocity.x, fuerzaDaño);
             animator.SetTrigger("estaSiendoDañado");
         } 
         else if (collision.gameObject.tag == "Cereza")
         {
+            FindObjectOfType<AudioManager>().Reproducir("Comer");
             vidaRecuperada(vidaCerezas);
             Destroy(collision.gameObject);
         }

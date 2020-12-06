@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - BarraVida
     - Movimiento
     - spawnCerezas
@@ -14,8 +15,6 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
-    Unity.2D.SpriteShape.Editor.dll:
-    - UnityEditor.U2D.SpriteShapeEditorAnalytics
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -95,35 +94,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11642}
     - Class: 114
-      Script: {instanceID: 12352}
+      Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12436}
+      Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12438}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 13066}
+      Script: {instanceID: 12958}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13578}
     - Class: 114
-      Script: {instanceID: 13996}
+      Script: {instanceID: 13624}
     - Class: 114
-      Script: {instanceID: 14590}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14644}
+      Script: {instanceID: 14592}
     - Class: 114
-      Script: {instanceID: 14692}
+      Script: {instanceID: 14646}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 21452}
+      Script: {instanceID: 15418}
+    - Class: 114
+      Script: {instanceID: 18518}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -389,6 +390,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: 0a96c28331f42a42682ac5c7813d2ea7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: spawnCerezas
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -937,10 +944,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 0a96c28331f42a42682ac5c7813d2ea7
+      Hash: c9784e0e1bea9d3e5d647d897c7aaff6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: spawnCerezas
+    className: AudioManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

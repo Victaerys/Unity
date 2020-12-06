@@ -55,6 +55,7 @@ public class Movimiento : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && tocaSuelo==true)
         {
+            FindObjectOfType<AudioManager>().Reproducir("Salto");
             animator.SetBool("estaSaltando", true);
             rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         }
@@ -74,6 +75,7 @@ public class Movimiento : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataforma")
         {
+          
             tocaSuelo = true;
             animator.SetBool("estaCayendo", false);
             animator.SetBool("estaSaltando", false);
