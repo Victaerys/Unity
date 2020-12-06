@@ -1,2 +1,5 @@
 # Unity
-Repositorio para el Desarrollo de Videojuegos de la Core Academy
+Desarrollo de un videojuego en 2D con Unity
+
+
+Sounds from epidemicsound.com and zapsplat.com
